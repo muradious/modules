@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRChat", "CSRChat\CSRChat.csproj", "{BC16EB03-6A1A-484C-A5D9-6B40E2F2914C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEOOptimizer", "SEOOptimizer\SEOOptimizer.csproj", "{1A83B3DB-6083-4C4B-9083-6CD5950B465A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration", "Integration\Integration.csproj", "{116CF61C-9BCB-46D1-A78A-B6D3F43B6926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC16EB03-6A1A-484C-A5D9-6B40E2F2914C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC16EB03-6A1A-484C-A5D9-6B40E2F2914C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC16EB03-6A1A-484C-A5D9-6B40E2F2914C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC16EB03-6A1A-484C-A5D9-6B40E2F2914C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A83B3DB-6083-4C4B-9083-6CD5950B465A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A83B3DB-6083-4C4B-9083-6CD5950B465A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A83B3DB-6083-4C4B-9083-6CD5950B465A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A83B3DB-6083-4C4B-9083-6CD5950B465A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116CF61C-9BCB-46D1-A78A-B6D3F43B6926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116CF61C-9BCB-46D1-A78A-B6D3F43B6926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116CF61C-9BCB-46D1-A78A-B6D3F43B6926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116CF61C-9BCB-46D1-A78A-B6D3F43B6926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
