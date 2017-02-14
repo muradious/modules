@@ -1,0 +1,176 @@
+﻿
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #e3e3e3;
+}
+
+#header {
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #ca241c;
+    background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Layouts/breadcrumb_red_bg.png");
+    background-repeat: no-repeat;
+}
+
+.submitButton {
+    background-color: #d7e5e4;
+    border: #5f9482 solid 1px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+    .submitButton:hover {
+        background-color: #e1e1e1;
+    }
+
+.login {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid 2px #ca241c;
+    color: #333;
+}
+
+    .login .textBox {
+        width: 240px;
+    }
+
+
+    .login #divButton {
+        padding: 4px;
+        text-align: right;
+    }
+
+.chatRoom {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 4px gray;
+}
+
+    .chatRoom .title {
+        font-size: 19px;
+        font-weight: bold;
+        color: #fff;
+        border-color: #474747;
+        padding: 0;
+        background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Layouts/menu-bg.png") center center;
+        background-repeat: no-repeat;
+        background-color: #474747;
+        padding: 30px 20px;
+    }
+
+    .chatRoom .content {
+        height: 300px;
+        clear: both;
+    }
+
+        .chatRoom .content .chatWindow {
+            float: left;
+            width: 80%;
+            height: 300px;
+            border-right: solid 1px #5f9482;
+            overflow-y: scroll;
+        }
+
+            .chatRoom .content .chatWindow .message {
+                padding: 4px;
+            }
+
+                .chatRoom .content .chatWindow .message .userName {
+                    font-weight: bold;
+                }
+
+        .chatRoom .content .users {
+            float: right;
+            width: 240px;
+            height: 300px;
+        }
+
+            .chatRoom .content .users .user {
+                display: block;
+                cursor: pointer;
+                padding: 4px;
+                background-color: #f9f9f9;
+                border-bottom: dotted 1px #333;
+            }
+
+            .chatRoom .content .users .loginUser {
+                display: block;
+                padding: 4px;
+                color: gray;
+                border-bottom: solid 1px #5f9482;
+            }
+
+            .chatRoom .content .users .user:hover {
+                background-color: #e1e1e1;
+            }
+
+    .chatRoom .messageBar {
+        border-top: solid 1px gray;
+        padding: 4px;
+    }
+
+        .chatRoom .messageBar .textbox {
+            width: 550px;
+        }
+
+.disconnect {
+    position: absolute;
+    margin: 10px;
+    background-color: #ffcbcb;
+    padding: 4px;
+    border: solid 1px red;
+}
+
+
+.draggable {
+    position: absolute;
+    border: #333 solid 1px !important;
+    width: 250px;
+    border-radius: 4px;
+}
+
+    .draggable .header {
+        cursor: move;
+        font-weight: bold;
+        color: #fff;
+        border-color: #474747;
+        background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Layouts/menu-bg.png") center center;
+        background-repeat: no-repeat;
+        background-color: #474747;
+        padding: 15px 10px;
+    }
+
+    .draggable .selText {
+        color: #fff;
+        padding: 4px;
+    }
+
+    .draggable .messageArea {
+        width: 250px;
+        overflow-y: scroll;
+        height: 200px;
+        border-bottom: #333 solid 1px;
+    }
+
+        .draggable .messageArea .message {
+            padding: 4px;
+        }
+
+    .draggable .buttonBar {
+        width: 250px;
+        padding: 4px;
+    }
+
+        .draggable .buttonBar .msgText {
+            width: 172px;
+        }
+
+        .draggable .buttonBar .button {
+            margin-left: 4px;
+            width: 55px;
+        }

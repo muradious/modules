@@ -1,0 +1,50 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+    var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+    rendering.Class = "sc-listcontrol sc-SitecoreJobs";
+    rendering.Requires.Script("client", "ChatLogComponent.js");
+
+    rendering.GetString("ChatLogParam", "ChatLogParam");
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes>
+
+    <div>
+        <table class="sc-table sc-table-header table">
+            <thead>
+                <tr>
+                    <th class="sc-table-head">From</th>
+                    <th class="sc-table-head">To</th>
+                    <th class="sc-table-head">Message</th>
+                    <th class="sc-table-head">Time</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="sc-listcontrol-body">
+            <table class="sc-table table">
+                <tbody data-bind="foreach: WFFMParam">
+                    <tr>
+                        <td class="ventilate">
+                            <span data-bind="text: From"></span>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text: To"></span>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text: Message"></span>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text: TimeStamp"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+        </div>
+
+
+    </div>
